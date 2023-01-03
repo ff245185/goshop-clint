@@ -59,7 +59,7 @@ const Footer = () => {
 								</li>
 								<li>
 									<a rel="noopener noreferrer" href="#">
-										Terms of Service
+										Terms of Service ###
 									</a>
 								</li>
 							</ul>
@@ -69,7 +69,7 @@ const Footer = () => {
 							<ul className="space-y-1">
 								<li>
 									<a rel="noopener noreferrer" href="#">
-										Public API
+										Public API ###
 									</a>
 								</li>
 								<li>
