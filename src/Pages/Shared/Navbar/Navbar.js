@@ -21,7 +21,7 @@ const Navbar = () => {
 		};
 	}, []);
 	return (
-		<div>
+		<div className="bg-gray-200">
 			<div>
 				<div className="px-4 py-5 mx-auto  md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 					<div className="relative flex items-center gap-3 justify-between">
@@ -34,7 +34,7 @@ const Navbar = () => {
 								className="inline-flex items-center">
 								<img className="sm:w-10 w-8" src={logo} alt="" />
 								<span className="ml-2 sm:block hidden sm:text-xl font-bold tracking-wide">
-									<p className="bg-yellow-500 rounded-lg text-white">Goshop</p>
+									Goshop
 								</span>
 							</Link>
 						</div>

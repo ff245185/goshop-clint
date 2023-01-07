@@ -4,8 +4,8 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import logo from '../../../Pages/assets/logo.jpg'
 const Footer = () => {
 	return (
-		<div className="">
-			<footer className="px-4 divide-y bg-gray-400">
+		<div className="bg-gray-400">
+			<footer className="px-4 divide-y  ">
 				<div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
 					<div className="lg:w-1/3 flex justify-center">
 						<Link
@@ -15,7 +15,7 @@ const Footer = () => {
 							className="inline-flex items-center">
 							<img className="sm:w-10 w-8" src={logo} alt="" />
 							<span className="ml-2 sm:text-2xl text-md font-bold tracking-wide">
-								ResaleFurniture
+							Goshop
 							</span>
 						</Link>
 					</div>
@@ -59,7 +59,7 @@ const Footer = () => {
 								</li>
 								<li>
 									<a rel="noopener noreferrer" href="#">
-										Terms of Service ###
+										Terms of Service
 									</a>
 								</li>
 							</ul>
@@ -69,7 +69,7 @@ const Footer = () => {
 							<ul className="space-y-1">
 								<li>
 									<a rel="noopener noreferrer" href="#">
-										Public API ###
+										Public API
 									</a>
 								</li>
 								<li>

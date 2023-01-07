@@ -16,7 +16,8 @@ const Blog = () => {
 							<div className="text-lg">
 								<AiFillQuestionCircle></AiFillQuestionCircle>
 							</div>
-							1 What are the different ways to manage a state in a React application?
+							What are the different ways to manage a state in a React
+							application?
 						</h2>
 
 						<span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -36,11 +37,29 @@ const Blog = () => {
 					</summary>
 
 					<p className="mt-4 leading-relaxed text-gray-700">
-					Local state is perhaps the easiest kind of state to manage in React, considering there are so many tools built into the core React library for managing it.
-
-                useState is the first tool you should reach for to manage state in your components.
-
-                It can take accept any valid data value, including primitive and object values. Additionally, its setter function can be passed down to other components as a callback function (without needing optimizations like useCallback)
+						There are four main types of state you need to properly manage in
+						your React apps:
+						<br />
+						<b>1) Type – </b>Local state
+						<br />
+						<b>2) Type – </b>Global state
+						<br />
+						<b>3) Type – </b>Server state
+						<br />
+						<b>4) Type – </b>URL state
+						<br />
+						Local (UI) state – Local state is data we manage in one or another
+						component.
+						<br />
+						Global (UI) state – Global state is data we manage across multiple
+						components.
+						<br />
+						Server state – Data that comes from an external server that must be
+						integrated with our UI state.
+						<br />
+						URL state – Data that exists on our URLs, including the pathname and
+						query parameters..
+						<br />
 					</p>
 				</details>
 
@@ -50,7 +69,7 @@ const Blog = () => {
 							<div className="text-lg">
 								<AiFillQuestionCircle></AiFillQuestionCircle>
 							</div>
-							2. How does prototypical inheritance work?
+							How does prototypical inheritance work?
 						</h2>
 
 						<span className="ml-1.5 flex-shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -70,7 +89,11 @@ const Blog = () => {
 					</summary>
 
 					<p className="mt-4 leading-relaxed text-gray-700">
-					The Prototypal Inheritance is a feature in javascript used to add methods and properties in objects.It is a method by which an object can inherit the properties and methods of another object.Traditionally, in order to get and set the[[Prototype]]of an object, we use Object.getPrototypeOf and Object.
+						The Prototypal Inheritance is a feature in javascript used to add
+						methods and properties in objects. It is a method by which an object
+						can inherit the properties and methods of another object.
+						Traditionally, in order to get and set the [[Prototype]] of an
+						object, we use Object. getPrototypeOf and Object.
 					</p>
 				</details>
 				<details className="group border-l-4 border-teal-600 shadow-lg shadow-slate-900 bg-gray-50 p-6">
