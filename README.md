@@ -1,67 +1,74 @@
-# ResaleFurniture
+# WELCOME TO OUR ONLINE RESALE SHOP PIRATES HUT
 
-# Welcome to Our ResaleFurniture eCommerce Website
+# Website [Live Link ...](https://pirates-hut-5b341.web.app/)
+ ### or .. https://pirates-hut-5b341.web.app// live link
 
-## ResaleFurniture Live WebSite Link: https://regal-furniture-ab3ef.web.app
+## Details About Our Website_____
 
-ResaleFurniture is a cloud-enabled, mobile-ready
-In this website ReactJS-powered Tailwind Css are used.
 
-- Click On THE LINK
-- Challenge Your MIND
-- ✨Magic ✨
+Admin Email : admin@gmail.com
+Admin Password : admin123
 
-## Description
 
-You can add your favorite food products or review and also share with your friends😁!!
-Dev Goal: Review...
+> Details About Our Website
 
-### Packages:
+## 🚩 How this Website was Built?
+- This Website is created by using REACT js.
 
-1. Used React JS Framework.
-2. React Router for client site navigation.
-3. NPM as package manager.
-4. Tailwind.
-5. React Icons.
-6. Context Api.
-7. React hot toast.
-8. And etc.
+- Used React Router and Context API
+- used google firebase 
+- used environment process
+- used node express server for api
+- MongoDB Database for store data
+- I have used React hot toast 
+- Used daisyUi components library
+- Some custom CSS
+- Website fully dynamically by API data  
+- Used Tailwind CSS frameworks for styles and used daisy ui component for better interface.
 
-### Some features of my project:
 
-1. This site is responsive for mobile and Desktop.
-2. You can add your product and update or deleted.
-3. You can add lots of products and etc.
-4. You can buy here
-5. Or You can payment here
-6. Here is lots of features of you.
 
----
 
-### Some function of my project:
 
-1. Every user can get equal rights
-2. Extremely damaged products is prohibited
-3. Don't spam
-4. To explore new sites of e-commerce
-5. Customer satisfaction
 
-## How To Use
 
-Just Click the link 👉 https://regal-furniture-ab3ef.web.app .
 
----
+## `HERE YOU CAN SEE    OTHER DETAILS.` 
 
-## Admin
 
-user: jibon@gmail.com
-pass: Jibon@5
 
-## Installation
 
-ResaleFurniture requires [Node.js](https://nodejs.org/) , React Js , Router, React-Icons to run.
+## 🌏 Browser Support
 
-Install the dependencies and devDependencies and start the server.
+| <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
+| :---------: | :---------: | :---------: | :---------: | :---------: |
+| Yes | 11+ | Yes | Yes | Yes |
 
-npm start
-npm run build
+
+## 🔧 Pull Request Steps
+
+TOAST UI products are open source, so you can create a pull request(PR) after you fix issues. Run npm scripts and develop yourself with the following process.
+
+### Setup
+
+Fork `main` branch into your personal repository. Clone it to local computer. Install node modules. Before starting development, you should check if there are any errors.
+
+```sh
+$ git clone https://github.com/programming-hero-web-course-4/b612-used-products-resale-clients-side-shourovr82.git
+$ npm install or npm i
+$ npm run build 
+$ npm start or npm run start
+```
+
+
+
+### Developed
+
+CREATED BY ONE OF THE BEST NEWBIE WEB DEVELOPER SHAFIN RAHMAN
+ 
+
+ 
+
+## 📜 Web App License
+
+This software is licensed under the [SHAFIN](https://github.com/shourovr82)

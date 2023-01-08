@@ -1,13 +1,16 @@
-import { RouterProvider } from "react-router-dom";
-import router from "./Router/Routes";
-import "aos/dist/aos.css";
-function App() {
-	return (
-		<div>
-			{" "}
-			<RouterProvider router={router} />
-		</div>
-	);
+import React from 'react'
+import { RouterProvider } from 'react-router-dom'
+import router from './Routes/Router'
+// import { RouterProvider } from 'react-router-dom'
+// import router from './Routes/Router'
+
+function App({ children }) {
+  return (
+
+    <RouterProvider router={router} >
+      {children}
+    </RouterProvider>
+  )
 }
 
-export default App;
+export default App
