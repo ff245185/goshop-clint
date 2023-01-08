@@ -124,7 +124,7 @@ const SignUp = () => {
           photoURL: googleUser?.photoURL,
           accountType: 'Buyer',
         }
-        fetch('https://pirates-hut-server.vercel.app/createuser', {
+        fetch(`https://pirates-hut-server.vercel.app/createuser`, {
           method: 'POST',
           headers: {
             'content-type': 'application/json'

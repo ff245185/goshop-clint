@@ -45,7 +45,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/category/:id',
-        loader: ({ params }) => fetch(`https://pirates-hut-server.vercel.app/category/${params.id}`),
+        loader: ({ params }) => fetch(`/https://pirates-hut-server.vercel.appcategory/${params.id}`),
         element: <PrivateRoute><Products></Products></PrivateRoute>
       },
     ]

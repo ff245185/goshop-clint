@@ -32,7 +32,7 @@ const BookingModal = ({ product, setModalitems, handleBookItem }) => {
       productId: _id,
     }
 
-    fetch('https://goshop-server.vercel.app/bookItem', {
+    fetch('https://pirates-hut-server.vercel.app/bookItem', {
       method: 'POST',
       headers: {
         'content-type': 'application/json',
